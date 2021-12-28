@@ -12,7 +12,9 @@
     <virtualType name="Danslo\VelvetCustomerGraphQl\Model\GraphQl\TableReader\Customer" type="Danslo\VelvetGraphQl\Model\GraphQl\TableReader">
         <arguments>
             <argument name="schemaType" xsi:type="string">VelvetGridCustomer</argument>
-            <argument name="tableName" xsi:type="string">customer_grid_flat</argument>
+            <argument name="tableNames" xsi:type="array">
+                <item name="customer_grid_flat" xsi:type="string">customer_grid_flat</item>
+            </argument>
             <argument name="generateInputType" xsi:type="boolean">false</argument>
         </arguments>
     </virtualType>
